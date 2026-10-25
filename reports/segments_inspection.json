@@ -1,0 +1,33 @@
+{
+  "filename": "segments.csv",
+  "rows": 303493,
+  "columns": [
+    "channel",
+    "timestamp",
+    "value",
+    "label",
+    "sampling",
+    "anomaly",
+    "segment",
+    "train"
+  ],
+  "column_count": 8,
+  "numeric_column_count": 5,
+  "missing_total": 0,
+  "label_candidates": [
+    "label",
+    "anomaly"
+  ],
+  "split_candidates": [
+    "train"
+  ],
+  "label_distribution": {
+    "label": {
+      "anomaly": 303493
+    },
+    "anomaly": {
+      "0": 203229,
+      "1": 100264
+    }
+  }
+}

@@ -1,0 +1,45 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backups and patch extractions
+backup_v*/
+v*_fix/
+v*_update/
+v*_debug/
+SpaceFD_Frontend_Debug.zip
+
+# Local test outputs
+.coverage
+coverage/
+htmlcov/

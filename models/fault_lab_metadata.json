@@ -1,0 +1,45 @@
+{
+  "name": "SpaceFD Raw Signal Random Forest",
+  "features": [
+    "count",
+    "mean",
+    "median",
+    "std",
+    "min",
+    "max",
+    "range",
+    "slope",
+    "diff_mean",
+    "diff_std",
+    "abs_diff_mean",
+    "unchanged_ratio",
+    "first_last_delta",
+    "missing_ratio"
+  ],
+  "training_segments": 1594,
+  "testing_segments": 529,
+  "metrics": {
+    "accuracy": 0.9640831758034026,
+    "precision": 0.9351851851851852,
+    "recall": 0.8938053097345132,
+    "f1": 0.9140271493212669,
+    "confusion_matrix": [
+      [
+        409,
+        7
+      ],
+      [
+        12,
+        101
+      ]
+    ]
+  },
+  "purpose": "Experimental raw-signal anomaly response",
+  "limitations": [
+    "Not a fault-type classifier",
+    "Not a physical root-cause diagnosis model",
+    "Injected faults have no real mission ground-truth labels",
+    "Probability changes are exploratory, not calibrated risk",
+    "No fault-injected samples were used in training"
+  ]
+}

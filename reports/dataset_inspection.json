@@ -1,0 +1,44 @@
+{
+  "filename": "dataset.csv",
+  "rows": 2123,
+  "columns": [
+    "segment",
+    "anomaly",
+    "train",
+    "channel",
+    "sampling",
+    "duration",
+    "len",
+    "mean",
+    "var",
+    "std",
+    "kurtosis",
+    "skew",
+    "n_peaks",
+    "smooth10_n_peaks",
+    "smooth20_n_peaks",
+    "diff_peaks",
+    "diff2_peaks",
+    "diff_var",
+    "diff2_var",
+    "gaps_squared",
+    "len_weighted",
+    "var_div_duration",
+    "var_div_len"
+  ],
+  "column_count": 23,
+  "numeric_column_count": 22,
+  "missing_total": 0,
+  "label_candidates": [
+    "anomaly"
+  ],
+  "split_candidates": [
+    "train"
+  ],
+  "label_distribution": {
+    "anomaly": {
+      "0": 1689,
+      "1": 434
+    }
+  }
+}
